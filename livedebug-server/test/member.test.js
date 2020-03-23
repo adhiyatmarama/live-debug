@@ -12,7 +12,7 @@ afterAll(done => {
 
 describe('Member Routes Test', () => {
   describe('Create new Member', () => {
-    test(`Should return status 201 and object of new member`, function (done) {
+    test(`Should return status 201 and object of new member`, (done) => {
       let data = {
         name: 'Hary Dhimas Prakoso',
         address: 'Jakarta',
